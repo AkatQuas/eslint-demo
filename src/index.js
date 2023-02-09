@@ -1,0 +1,2 @@
+class Person {}
+new Person();
