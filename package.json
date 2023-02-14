@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "rm -rf infra/node_modules || true; mv node_modules infra/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

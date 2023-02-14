@@ -1,3 +1,4 @@
 {
-  "eslint.nodePath": "infra/node_modules"
+  "eslint.nodePath": "/Users/akat/workspace/eslint-demo/infra/node_modules",
+  "eslint.experimental.useFlatConfig": false
 }
