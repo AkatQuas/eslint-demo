@@ -1,7 +1,7 @@
-const a = require('eslint-config-standard');
+const standard = require('./infra/node_modules/eslint-config-standard');
 
 module.exports = [
-  a,
+  standard,
   {
     files: ['src/**/*.js'],
     rules: {
